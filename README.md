@@ -4,8 +4,8 @@
 <img width="1600" height="732" alt="image" src="https://github.com/user-attachments/assets/9ed527cd-42d5-43b3-aca0-a08a66684f90" />
 
 # what's that?
-- specialized bot that's scraping data, analyze them via AI and deleting unwanted content
-- using Hugging Face (ROBeRTa for Czech) as word and context database (around 1GB)
+- specialized bot that's scraping data from screen (non-API), analyze them via AI and deleting unwanted content
+- using Hugging Face database (ROBeRTa for Czech) as word and context database (around 1GB)
 - tracks sentiment, negativity, toxicity, argument value
 
 # how does it work?
@@ -38,6 +38,7 @@
 --last 100 detected phrases cached for speed up the process
 
 TO DO:
--pattern matching for cache
--easy record action
--working stop
+-pattern matching cache
+-easy record move and click actions
+-fully working stop button
+-esc button
