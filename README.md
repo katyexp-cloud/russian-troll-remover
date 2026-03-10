@@ -27,18 +27,18 @@
 - wobbly moves and different times simulating human-like cursor behaviour
 
 # .jsons
--config.json
---saved settings
---manually configurate the actions
+- config.json
+  - saved settings
+  - manually configurate the actions
 
--blacklist.json
---manually input individual words to flag
+- blacklist.json
+  - manually input individual words to flag
 
--cache.json
---last 100 detected phrases cached for speed up the process
+- cache.json
+  - last 100 detected phrases cached for speed up the process
 
-TO DO:
--pattern matching cache
--easy record move and click actions
--fully working stop button
--esc button
+# TO DO:
+- pattern matching cache
+- easy record move and click actions
+- fully working stop button
+- esc button
